@@ -1,0 +1,138 @@
+/*
+Theme: Midnight ocean 
+Background: #17202A
+Text: #FDFEFE
+Accent: #2980B9 (Blue)
+ */
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fdfefe;
+}
+
+.logo-img {
+  width: 40px;
+}
+
+.form-wrapper {
+  padding: 18px 30px;
+  border-radius: 18px;
+  width: 400px;
+  max-width: 90%;
+  background-color: #2980b9;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.create-room-btn {
+  color: #091d3e;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.create-room-btn:hover {
+  color: #041227;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+input {
+  color: #253f4b;
+  background-color: #fdfefe;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 9px;
+}
+
+.btn {
+  background-color: #091d3e;
+  border: none;
+  padding: 6px 12px;
+  color: #fdfefe;
+  font-weight: bold;
+  width: 84px;
+  cursor: pointer;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #041227;
+  transition: all 0.3s;
+}
+
+/* Editor */
+.main-wrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.aside-inner {
+  flex: 1;
+}
+
+.clients-list {
+  /* background-color: #fdfefe; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.username {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+.logo-image {
+  height: 60px;
+}
+
+.leave-btn {
+  width: 100%;
+  margin-top: 20px;
+}
+.join-btn,
+.leave-btn {
+  background: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+.join-btn:hover,
+.leave-btn :hover {
+  background: #2b824c;
+}
+.copy-btn {
+  color: #fff;
+  background-color: #424242;
+}
+
+.CodeMirror {
+  min-height: calc(100vh-20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
